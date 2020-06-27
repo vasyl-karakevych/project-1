@@ -1,5 +1,5 @@
 // 1. How do you saw films
-let numberOfFilms = prompt("How do you saw films?",'');
+let numberOfFilms = +prompt("How do you saw films?",'');
 // console.log(numberOfFilms);
 
 // 2. new object personalMowiesDB
@@ -14,8 +14,11 @@ let personalMoviesDB =  {
 
 //  3. two questions
 let nameOfFilm = prompt("Write last name films which your saw",'James Bond'),
-    ratingOfFilm = prompt("How rating?",'0');
+    ratingOfFilm = prompt("How rating?",'2.1'),
+    nameOfFilm2 = prompt("Write last name films which your saw",'James Bond'),
+    ratingOfFilm2 = prompt("How rating?",'2.1');
 
- personalMoviesDB.movies = [nameOfFilm, ratingOfFilm];
+ personalMoviesDB.movies[nameOfFilm] = ratingOfFilm;
+ personalMoviesDB.movies[nameOfFilm2] = ratingOfFilm2;
 
-console.log(personalMoviesDB.movies);
+console.log(personalMoviesDB);
