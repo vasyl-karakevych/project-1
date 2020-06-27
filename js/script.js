@@ -10,4 +10,12 @@ let personalMoviesDB =  {
     genres: [],
     privat: false
 };
-console.log(personalMoviesDB);
+// console.log(personalMoviesDB);
+
+//  3. two questions
+let nameOfFilm = prompt("Write last name films which your saw",'James Bond'),
+    ratingOfFilm = prompt("How rating?",'0');
+
+ personalMoviesDB.movies = [nameOfFilm, ratingOfFilm];
+
+console.log(personalMoviesDB.movies);
