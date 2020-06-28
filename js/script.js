@@ -11,3 +11,5 @@ let personalMoviesDB =  {
     privat: false
 };
 console.log(personalMoviesDB);
+
+console.log('hotfix');
