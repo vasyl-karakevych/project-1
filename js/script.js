@@ -11,4 +11,10 @@ let personalMoviesDB =  {
     privat: false
 };
 console.log(personalMoviesDB);
+<<<<<<< HEAD
 // 1
+=======
+
+
+// site
+>>>>>>> d8d3a95381d6381798c5479eb2fb15e5a20a0e13
