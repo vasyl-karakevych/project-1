@@ -12,6 +12,3 @@ let personalMoviesDB =  {
 };
 console.log(personalMoviesDB);
 
-console.log('add issue 50');
-
-console.log('hotfix');
