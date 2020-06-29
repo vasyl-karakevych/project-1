@@ -11,4 +11,4 @@ let personalMoviesDB =  {
     privat: false
 };
 console.log(personalMoviesDB);
-
+// 1
