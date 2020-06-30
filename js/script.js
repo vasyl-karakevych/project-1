@@ -10,11 +10,24 @@ let personalMoviesDB =  {
     genres: [],
     privat: false
 };
+
+for (let i = 0; i < numberOfFilms; i++){
+    let nameOfFilm = '',
+        ratingOfFilm = 0;
+    do {
+        nameOfFilm = prompt(`Вкажіть назву ${i+1} фільму`, '');
+    }
+    while(nameOfFilm == '' || nameOfFilm.length > 50 || nameOfFilm.length <= 1 )
+
+    do{
+        ratingOfFilm = +prompt(`Вкажіть рейтинг ${i+1} film`, '0');
+    }
+    while(ratingOfFilm < 0 || ratingOfFilm > 10)
+
+
+    personalMoviesDB.movies[nameOfFilm] = ratingOfFilm;
+}
+
+
+
 console.log(personalMoviesDB);
-<<<<<<< HEAD
-// 1
-=======
-
-
-// site
->>>>>>> d8d3a95381d6381798c5479eb2fb15e5a20a0e13
