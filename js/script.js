@@ -36,6 +36,7 @@ let personalMoviesDB = {
     }
 };
 
+<<<<<<< HEAD
 
 
 
@@ -93,3 +94,25 @@ let personalMoviesDB = {
 // }
 
 //  console.log(people.getName() +' '+ people.getSurname());
+=======
+for (let i = 0; i < numberOfFilms; i++){
+    let nameOfFilm = '',
+        ratingOfFilm = 0;
+    do {
+        nameOfFilm = prompt(`Вкажіть назву ${i+1} фільму`, '');
+    }
+    while(nameOfFilm == '' || nameOfFilm.length > 50 || nameOfFilm.length <= 1 )
+
+    do{
+        ratingOfFilm = +prompt(`Вкажіть рейтинг ${i+1} film`, '0');
+    }
+    while(ratingOfFilm < 0 || ratingOfFilm > 10)
+
+
+    personalMoviesDB.movies[nameOfFilm] = ratingOfFilm;
+}
+
+
+
+console.log(personalMoviesDB);
+>>>>>>> 61cddad861cdf748f19b88ffe6fb708005bc065f

@@ -1,0 +1,91 @@
+[33mcommit 5d4ae8affaa0051a148dffc065ca4ebda80111d1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Vasyl Karakevych <vasyl.karakevych@gmail.com>
+Date:   Mon Jun 29 20:25:43 2020 +0300
+
+    commit 1
+
+[33mcommit 10b88463dcb39765a9265178c923aab629f81312[m
+Merge: b2241b0 d8d3a95
+Author: Vasyl Karakevych <vasyl.karakevych@gmail.com>
+Date:   Mon Jun 29 10:10:48 2020 +0300
+
+    merge
+
+[33mcommit b2241b0c7a7d92dfe40979d73442204c6e79cf23[m
+Author: Vasyl Karakevych <vasyl.karakevych@gmail.com>
+Date:   Mon Jun 29 10:08:50 2020 +0300
+
+    comp add 1
+
+[33mcommit d8d3a95381d6381798c5479eb2fb15e5a20a0e13[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Vasyl <vasyl.karakevych@gmail.com>
+Date:   Mon Jun 29 10:06:56 2020 +0300
+
+    update site
+
+[33mcommit 5b9174cf3a03d6e6ee2a669b2a8ff2b3310f5824[m
+Author: Vasyl Karakevych <vasyl.karakevych@gmail.com>
+Date:   Mon Jun 29 10:04:18 2020 +0300
+
+    null
+
+[33mcommit 14e1a90d2292ed3493e7c235c14d50a48471df91[m
+Merge: cd2edb7 af9ea0b
+Author: Vasyl <vasyl.karakevych@gmail.com>
+Date:   Mon Jun 29 10:01:59 2020 +0300
+
+    merge
+
+[33mcommit cd2edb7c21de3e195523e1c7d1b76f439193a7ae[m
+Author: Vasyl Karakevych <vasyl.karakevych@gmail.com>
+Date:   Sun Jun 28 23:32:01 2020 +0300
+
+    commit hotfix
+
+[33mcommit af9ea0bb239c319265b856d3c9accaf0deb07248[m
+Author: Vasyl Karakevych <vasyl.karakevych@gmail.com>
+Date:   Sun Jun 28 23:28:24 2020 +0300
+
+    switch new branch
+
+[33mcommit 4301f058f2c8216dbd4edd33adfc32ec2b521359[m
+Author: Vasyl <vasyl.karakevych@gmail.com>
+Date:   Sat Jun 27 23:04:18 2020 +0300
+
+     3. two questions !
+
+[33mcommit a95d1342ad2b66681b4e6ce7e935d9dd5a16a8f8[m
+Author: Vasyl Karakevych <vasyl.karakevych@gmail.com>
+Date:   Sat Jun 27 22:10:48 2020 +0300
+
+    correct 3
+
+[33mcommit b4215b7c7228bb6eb046e80d514c94abc776c025[m
+Author: Vasyl Karakevych <vasyl.karakevych@gmail.com>
+Date:   Sat Jun 27 21:58:41 2020 +0300
+
+     3. two questions
+
+[33mcommit 2af6fa2a778b4a0c395c4dd26b07264cb62fb778[m
+Author: Vasyl Karakevych <vasyl.karakevych@gmail.com>
+Date:   Sat Jun 27 21:43:02 2020 +0300
+
+    2. new object personalMowiesDB
+
+[33mcommit 5fd24d5d921fe7ba6893600e503a10f2f82e0ee8[m
+Author: Vasyl Karakevych <vasyl.karakevych@gmail.com>
+Date:   Sat Jun 27 21:34:44 2020 +0300
+
+    1. How do you saw films
+
+[33mcommit 298a5be165bd280610fccd113b9b82a157cf717a[m
+Author: Vasyl <vasyl.karakevych@gmail.com>
+Date:   Fri Jun 26 22:48:50 2020 +0300
+
+    modify index.html
+
+[33mcommit 216daa4d35479198cb2ad9ea363b7647af5120fe[m
+Author: Vasyl Karakevych <vasyl.karakevych@gmail.com>
+Date:   Fri Jun 26 22:46:47 2020 +0300
+
+    First commit
