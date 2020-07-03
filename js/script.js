@@ -3,38 +3,47 @@
 // // console.log(numberOfFilms);
 
 // 2. new object personalMowiesDB
-let personalMoviesDB =  {
+let personalMoviesDB = {
     count: 0,
     movies: {},
     actors: {},
     genres: [],
     privat: false,
 
-    questionNumberOfFilms: function(){
-        this.count = +prompt("How do you saw films?",'');
+    questionNumberOfFilms: () => {
+        do {
+            this.count = +prompt("How do you saw films?", '');
+        }
+        while (this.count == '' || this.count == null || isNuN(this.count))
     },
 
-    toggleVisibleMyDB: function(){
-        (this.privat === false)? this.privat = true: this.privat = false;
+    toggleVisibleMyDB: () => {
+        (this.privat) ? this.privat = false: this.privat = true;
     },
 
-    writeYourGenres: function(){
+    writeYourGenres: () => {
         let str;
         do {
             str = prompt("Please enter genres:", '');
-            console.log(str)       ;
+            console.log(str);
         }
-        while(str == null || str == '' || str.length <3)
+        while (str == null || str == '' || str.length < 3)
 
-        this.genres = str.split(', '); 
-        this.genres.forEach(function(value, i, genres){
-            console.log(`Your ${i} favorite genre of films is: ${value}`);
-        } );
+        this.genres = str.split(', ');
+        this.genres.forEach(function (value, i, genres) {
+            console.log(`Your ${i+1} favorite genre of films is: ${value}`);
+        });
     }
 };
 
-personalMoviesDB.writeYourGenres();
-console.log(personalMoviesDB);
+
+
+
+
+
+
+// personalMoviesDB.questionNumberOfFilms()
+// console.log(personalMoviesDB);
 
 
 // for (let i = 0; i < numberOfFilms; i++){
@@ -68,19 +77,19 @@ console.log(personalMoviesDB);
 //     }
 
 
-    
-    
-    // let {chName, chAge} = people.children;
-    // console.log(chName);
-    // console.log(chAge);
-    
 
-    // console.log(Object.keys(people).length);
 
-    // for (let key in people){
+// let {chName, chAge} = people.children;
+// console.log(chName);
+// console.log(chAge);
 
-    //         console.log(`${key} equals ${people[key]}`);
 
-    // }
+// console.log(Object.keys(people).length);
+
+// for (let key in people){
+
+//         console.log(`${key} equals ${people[key]}`);
+
+// }
 
 //  console.log(people.getName() +' '+ people.getSurname());
